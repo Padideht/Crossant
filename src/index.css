@@ -12,4 +12,27 @@ body {
     max-width: 100%;
     height: auto;
   }
+  .container {
+    margin: 50px 10px 20px 10px;
+  }
+}
+
+.container {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+
+  margin: 100px 30px 30px 30px;
+}
+
+.wiki-link {
+  text-decoration: none;
+}
+.wiki-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
