@@ -36,3 +36,9 @@ body {
 .email:hover {
   text-decoration: underline;
 }
+
+.footer {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
